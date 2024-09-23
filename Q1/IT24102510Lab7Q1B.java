@@ -6,7 +6,10 @@ public static void main(String[] args){
   double totalmarks = 0;
   int count = 0;
   String Grade ="n";
-
+  int Scount = 1;
+ 
+  while(Scount<5){
+  System.out.println("Student "+Scount);
   System.out.print("Enter marks : ");
   String input =scanner.nextLine();
 
@@ -30,5 +33,8 @@ public static void main(String[] args){
      Grade ="Fail";
      System.out.println("Avarage is : "+Average);
      System.out.println("Overall Grade is : "+Grade);
+     Scount++;
+     System.out.println();
+  }
  }
 }
